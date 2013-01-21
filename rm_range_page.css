@@ -97,12 +97,15 @@ a:hover {
     background: black;
     color:white;
     padding: 10px 20px;
-    margin-top: 20px;
+    margin-top: 60px;
     font-family: 'MuseoSans300';
     font-size: 20px;
 	clear: both;
 }
 
+.bar_title.first {
+	margin-top: 20px;
+}
 
 .product_panel {
 	width: 215px;
