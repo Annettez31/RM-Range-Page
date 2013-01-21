@@ -76,14 +76,35 @@ a:hover {
     overflow: hidden;
 }
 
-#category_wrapper {
+#left_side {
+    width: 725px;
+    overflow: hidden;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#range_products,
+#similar_products,
+#accessories {
     width: 705px;
     padding-left: 20px;
     overflow: hidden;
-    float: left;
 }
 
-.category_panel {
+.bar_title{
+	width: 705px;
+    /*background: url('images/') repeat-x;*/
+    background: black;
+    color:white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-family: 'MuseoSans300';
+    font-size: 20px;
+	clear: both;
+}
+
+
+.product_panel {
 	width: 215px;
 	height: 400px;
 	overflow: hidden;
@@ -93,14 +114,15 @@ a:hover {
 	margin-left: 20px;
 } 
 
-.category_panel h3 {
+.product_panel h3 {
 	font-size: 20px;
 	margin: 10px 0;
 	color: rgb(253, 112, 35);
 	text-decoration: none;
+	font-weight: normal;
 }
 
-.category_panel p {
+.product_panel p {
 	margin: 10px 0;
 	font-size: 14px;
 	font-family: 'MuseoSans300';
@@ -118,8 +140,9 @@ a:hover {
 	text-indent: -5px;
 }
  
-#side_panel_wrapper {
+#right_side {
 	width: 235px;
+	float: left;
 	overflow: hidden;
 } 
 
@@ -150,39 +173,41 @@ a:hover {
 	padding-bottom: 40px;
 } 
 
-.panel_hyperlinks {
-   width: 100%;
-   height: 29px;
-   position: absolute;
-   bottom: 0;
-   list-style: none;
-   padding: 0;
-   margin: 3px 0;
-   z-index: 2;
+.cta {
+	width: 100%;
+	height: 30px;
+	position: absolute;
+	bottom: 0;
+	border: none;
+	-webkit-border-horizontal-spacing: 0;
+	-webkit-border-vertical-spacing: 0;
 }
 
-.side_panel .panel_hyperlinks {
-	bottom: -5px;
+.cta tr {
+	height: 100%;
 }
 
-.panel_hyperlinks li {
-   padding: 1px 0;
+.cta td {
+	height: 100%;
+    border: none;
+    font-family: 'MuseoSans300';
+    font-size: 16px;
+	vertical-align: middle;
+	text-align: center;
+    background-color: rgb(253, 112, 35);
+    color: white;
 }
 
-.panel_hyperlinks li a {
-   width: 100%;
-   height: 100%;
-   display: block;
-   text-decoration: none;
-   background-color: rgb(253, 112, 35);
-   color: white;
-   border-radius: 2px;
-   text-align: center;
-   line-height: 245%;
-   font-size: 0.9em;
+.cta td:hover {
+	background-color: rgb(253, 132, 55);
 }
 
-.panel_hyperlinks li a:hover {
-   text-decoration: underline;
-   background-color: rgb(253, 132, 55);
+.cta a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	display: block;
+    width: 100%;
+    height: 100%;
 }
