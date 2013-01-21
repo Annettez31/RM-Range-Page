@@ -85,7 +85,7 @@ a:hover {
 
 .category_panel {
 	width: 215px;
-	height: 355px;
+	height: 400px;
 	overflow: hidden;
 	position: relative;
 	float: left;
@@ -94,8 +94,10 @@ a:hover {
 } 
 
 .category_panel h3 {
-	font-size: 18px;
+	font-size: 20px;
 	margin: 10px 0;
+	color: rgb(253, 112, 35);
+	text-decoration: none;
 }
 
 .category_panel p {
@@ -112,7 +114,7 @@ a:hover {
 	font-family: 'MuseoSans300';
 }
 
-.product_specs li {
+.product_specs  {
 	text-indent: -5px;
 }
  
@@ -154,8 +156,8 @@ a:hover {
    position: absolute;
    bottom: 0;
    list-style: none;
-   margin: 10px 0;
    padding: 0;
+   margin: 3px 0;
    z-index: 2;
 }
 
