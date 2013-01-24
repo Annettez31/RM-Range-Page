@@ -125,7 +125,20 @@ a:hover {
 	margin-left: 20px;
 } 
 
-.product_panel h3 {
+.top_left {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.top_right {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.product_panel h2 {
 	font-size: 20px;
 	margin: 10px 0;
 	color: rgb(253, 112, 35);
@@ -181,14 +194,16 @@ a:hover {
 }
 
 #brand_logos,
-#discover_logos {
+#discover_logos,
+#accessories_logos {
 	overflow: hidden;
 	margin-left: 1px;
 	margin-top: 1px;
 }
 
 .brand_logo,
-.discover_logo {
+.discover_logo,
+.accessories_logos {
 	width: 104px;
 	height: 110px;
 	background: url('images/brands.png');
@@ -197,19 +212,25 @@ a:hover {
 }
 
 .brand_logo a,
-.discover_logo a {
+.discover_logo a,
+.accessories_logos a {
 	width: 100%;
 	height: 100%;
 	display: block;
 }
 
 .brand_logo a:hover,
-.discover_logo a:hover {
+.discover_logo a:hover,
+.accessories_logos a:hover {
 	background: url('images/trans_black.png');
 }
 
 .discover_logo {
 	background: url('images/discover_logos.png');
+}
+
+.accessories_logos {
+	background: url('images/accessories_logos.png');
 }
 
 .side_panel.contains_cta{
