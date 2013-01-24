@@ -112,7 +112,7 @@ a:hover {
 }
 
 .bar_title.first {
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
 .product_panel {
@@ -168,7 +168,6 @@ a:hover {
 	float: left;
 	background: #e4e4e4;
 	overflow: hidden;
-	margin-top: 10px;
 	padding-top: 10px;
 	margin-left: 10px;
 	padding-left: 10px;
