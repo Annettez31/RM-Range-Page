@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, h1, h2, h3, h4, h5, h6 {
-	margin: 0;
+    margin: 0;
 }
 
 img {
@@ -43,7 +43,7 @@ a:link, a:visited {
 }
 
 a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 #page_wrapper {
@@ -57,6 +57,14 @@ a:hover {
     height: 244px;
     position: relative;
     left: -131px;
+}
+
+#microsoft_mba {
+	float: right;
+	padding: 10px;
+	font-family: 'MuseoSans300';
+	font-size: 16px;
+	margin-right: 30px;
 }
 
 #page_footer {
@@ -92,15 +100,15 @@ a:hover {
 }
 
 .bar_title{
-	width: 705px;
+    width: 705px;
     /*background: url('images/') repeat-x;*/
     background: black;
     color:white;
     padding: 10px 20px;
-    margin-top: 60px;
+    margin-top: 50px;
     font-family: 'MuseoSans300';
     font-size: 20px;
-	clear: both;
+    clear: both;
 }
 
 .bar_title.first {
@@ -154,8 +162,8 @@ a:hover {
 	overflow: hidden;
 	margin-left: 20px;
 	margin-top: 20px;
-    background-color: rgb(37, 37, 37);
-    position: relative;
+	background-color: rgb(37, 37, 37);
+	position: relative;
 }
 
 .side_panel h3 {
@@ -172,18 +180,49 @@ a:hover {
 	padding: 5px;
 }
 
+#brand_logos,
+#discover_logos {
+	overflow: hidden;
+	margin-left: 1px;
+	margin-top: 1px;
+}
+
+.brand_logo,
+.discover_logo {
+	width: 104px;
+	height: 110px;
+	background: url('images/brands.png');
+	margin: 1px;
+	float: left;
+}
+
+.brand_logo a,
+.discover_logo a {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.brand_logo a:hover,
+.discover_logo a:hover {
+	background: url('images/trans_black.png');
+}
+
+.discover_logo {
+	background: url('images/discover_logos.png');
+}
+
 .side_panel.contains_cta{
-	padding-bottom: 40px;
+	padding-bottom: 50px;
 } 
 
 .cta {
 	width: 100%;
-	height: 30px;
+	height: 40px;
 	position: absolute;
 	bottom: 0;
 	border: none;
-	-webkit-border-horizontal-spacing: 0;
-	-webkit-border-vertical-spacing: 0;
+	border-spacing: 0;	
 }
 
 .cta tr {
@@ -194,7 +233,7 @@ a:hover {
 	height: 100%;
     border: none;
     font-family: 'MuseoSans300';
-    font-size: 16px;
+    font-size: 18px;
 	vertical-align: middle;
 	text-align: center;
     background-color: rgb(253, 112, 35);
