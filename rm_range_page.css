@@ -164,18 +164,27 @@ a:hover {
 }
 
 #right_side {
-	width: 235px;
+	width: 215px;
 	float: left;
+	background: #e4e4e4;
 	overflow: hidden;
+	margin-top: 10px;
+	padding-top: 10px;
+	margin-left: 10px;
+	padding-left: 10px;
+	padding: 10px;
 } 
 
 .side_panel {
 	width: 215px;
 	overflow: hidden;
-	margin-left: 20px;
 	margin-top: 20px;
 	background-color: rgb(37, 37, 37);
 	position: relative;
+}
+
+.side_panel.first {
+	margin-top: 0;
 }
 
 .side_panel h3 {
