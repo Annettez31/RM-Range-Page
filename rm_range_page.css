@@ -52,7 +52,7 @@ a:hover {
 }
 
 #page_header {
-    background: url('images/rm_shop_header.png');
+    background: url('images/nrp_rm_shop_header.png');
     width: 1262px;
     height: 244px;
     position: relative;
@@ -68,7 +68,7 @@ a:hover {
 }
 
 #page_footer {
-    background: url('images/rm_shop_footer.png');
+    background: url('images/nrp_rm_shop_footer.png');
     width: 1262px;
     height: 354px;
     position: relative;
@@ -101,7 +101,7 @@ a:hover {
 
 .bar_title{
     width: 705px;
-    /*background: url('images/') repeat-x;*/
+    /*background: url('images/nrp_') repeat-x;*/
     background: black;
     color:white;
     padding: 10px 20px;
@@ -117,7 +117,7 @@ a:hover {
 
 .product_panel {
 	width: 215px;
-	height: 400px;
+	height: 425px;
 	overflow: hidden;
 	position: relative;
 	float: left;
@@ -126,7 +126,6 @@ a:hover {
 } 
 
 .top_left {
-	display: block;
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -163,7 +162,7 @@ a:hover {
 .product_specs  {
 	text-indent: -5px;
 }
- 
+
 #right_side {
 	width: 235px;
 	float: left;
@@ -206,7 +205,7 @@ a:hover {
 .accessories_logos {
 	width: 104px;
 	height: 110px;
-	background: url('images/brands.png');
+	background: url('images/nrp_brands.png');
 	margin: 1px;
 	float: left;
 }
@@ -222,15 +221,15 @@ a:hover {
 .brand_logo a:hover,
 .discover_logo a:hover,
 .accessories_logos a:hover {
-	background: url('images/trans_black.png');
+	background: url('images/nrp_trans_black.png');
 }
 
 .discover_logo {
-	background: url('images/discover_logos.png');
+	background: url('images/nrp_discover_logos.png');
 }
 
 .accessories_logos {
-	background: url('images/accessories_logos.png');
+	background: url('images/nrp_accessories_logos.png');
 }
 
 .side_panel.contains_cta{
